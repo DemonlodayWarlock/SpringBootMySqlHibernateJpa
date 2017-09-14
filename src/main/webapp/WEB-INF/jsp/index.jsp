@@ -27,8 +27,8 @@
 	<%-- <%= 0/0 %> --%>
 	
 
-	<form action="/view/{circle}" method="post">
-		Circle Name:<input type="text" name="name" required="required"/>
+	<form name="newCircleForm" action="/view/{circle}" method="post">
+		Circle Name:<input type="text" name="name"/>
 		<br/>
 		<input type="reset" name="Reset">
 		<input type="submit" name="Submit" onclick="return confirmSaveNewCircle();"/>
