@@ -10,6 +10,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
 <title>Spring boot local test</title>
+<script type="text/javascript" src="/js/index.js"></script>
 </head>
 <body>
 	This is index page!
@@ -26,16 +27,18 @@
 	<%-- <%= 0/0 %> --%>
 	
 
-	<form action="/view/{circle}" method="post" >
+	<form action="/view/{circle}" method="post">
 		Circle Name:<input type="text" name="name" required="required"/>
 		<br/>
 		<input type="reset" name="Reset">
-		<input type="submit" name="Submit"/>
+		<input type="submit" name="Submit" onclick="return confirmSaveNewCircle();"/>
 	</form>
 	<br/>
 	<br/>
 	<br/>
 	<a href="/view/circles"> All Circles</a>
 	
+	<p id="showyourself">Show Yourself</p>
+	<input type="button" onclick="clickButton()" name="clickit"/>	
 </body>
 </html>
