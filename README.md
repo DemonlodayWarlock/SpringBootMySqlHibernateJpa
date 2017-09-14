@@ -1,3 +1,6 @@
+#Today hard work,Tomorrow happy life!
+
+
 # SpringBootMySqlHibernateJpa
 Local test for spring boot with mysql , hibernate, jpa
 
