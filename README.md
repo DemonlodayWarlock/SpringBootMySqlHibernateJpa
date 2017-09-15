@@ -22,3 +22,7 @@ Spring boot is auto configured, we need follow the rule.
   Besides, add folder "WEB-INF/jsp" in sourcefolder src/main/webapp.
   Also, config "spring.mvc.view.prefix" and "spring.mvc.view.suffix" in application.properties.
   If want to use static resources in jsp, need config "spring.resources.static-locations" in application.properties.
+  
+  
+#Sites:
+http://www.runoob.com/
